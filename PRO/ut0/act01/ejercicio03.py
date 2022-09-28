@@ -10,5 +10,5 @@ while aux_n>0:
     n_ast += 2
 
 while aux_n < n:
-    print(espacio * (n-2) + asterisco * 3)
+    print(espacio * (n-2) + "|" * 3)
     aux_n += 1
