@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <estilo nombre_estilo="pop">
+        <disco n_disco="1">
+            <titulo>Thriller</titulo>
+            <interprete>Michael Jackson</interprete>
+            <compositor>Michael Jackson</compositor>
+            <fecha>30 de noveimbre de 1982</fecha>
+            <stock>5</stock>
+            <vinilo>Si</vinilo>
+        </disco>
+        <disco n_disco="2">
+            <titulo>Bad</titulo>
+            <interprete>Michael Jackson</interprete>
+            <compositor>Michael Jackson</compositor>
+            <fecha>31 de agosto de 1987</fecha>
+            <stock>10</stock>
+            <vinilo>Si</vinilo>
+        </disco>
+    </estilo>
+    <estilo nombre_estilo="rock">
+        <disco n_disco="1">
+            <titulo>Revolution</titulo>
+            <interprete>The Score</interprete>
+            <compositor>The Score</compositor>
+            <fecha>20 de enero de 2017</fecha>
+            <stock>15</stock>
+            <vinilo>No</vinilo>
+        </disco>
+        <disco n_disco="2">
+            <titulo>In my blood</titulo>
+            <interprete>The Score</interprete>
+            <compositor>The Score</compositor>
+            <fecha>22 de marzo de 2022</fecha>
+            <stock>3</stock>
+            <vinilo>No</vinilo>
+        </disco>
+    </estilo>
+    <estilo nombre_estilo="Pop rock">
+        <disco n_disco="1">
+            <titulo>Bohemian Rhapsody</titulo>
+            <interprete>Queen</interprete>
+            <compositor>Freedie Mercury</compositor>
+            <fecha>1992</fecha>
+            <stock>100</stock>
+            <vinilo>Si</vinilo>
+        </disco>
+        <disco n_disco="2">
+            <titulo>The miracle</titulo>
+            <interprete>Queen</interprete>
+            <compositor>Freedie</compositor>
+            <fecha>1988</fecha>
+            <stock>50</stock>
+            <vinilo>Si</vinilo>
+        </disco>
+    </estilo>
+</tienda>

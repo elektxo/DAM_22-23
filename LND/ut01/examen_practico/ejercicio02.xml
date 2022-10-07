@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operaciones>
+	<ecuacion id="1">
+		<equisGrado1>2</equisGrado1>
+		<menos/>
+		<equisGrado2>5</equisGrado2>
+		<mas/>
+		<equisGrado3>4</equisGrado3>
+		<mas/>
+		<valorGrado1>9</valorGrado1>
+		<equal/>
+		<resultado>0</resultado>
+	</ecuacion>
+</operaciones>
+
+
+
+<!--
+El mathxml me parece que tiene una sintaxis un poco dificil de leer y aprender aunque sea mas eficiente que el mio
+ 
+<math xmlns='http://www.w3.org/1998/Math/MathML'> 
+<mn> 2 </mn> 
+<msup> <mrow> 
+<mi> x </mi> </mrow> <mrow> <mn> 3 </mn> </mrow> </msup> <mo> - </mo> <mn> 5 </mn> <msup> <mrow> <mi> x </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msup> 
+<mo> + </mo> <mn> 4 </mn> <mi> x </mi> <mo> + </mo> <mn> 9 </mn> <mo> = </mo> <mn> 0 </mn> </math>
+-->
