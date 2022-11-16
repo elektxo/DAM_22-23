@@ -1,7 +1,4 @@
-impreso = f''
+precio = '33.99'
 
-popo = 'mas caca'
-for i in range(2):
-    impreso += f'caca {popo} \n'
-    popo = 'pepe'
-print(impreso)
+if precio.isdigit():
+    print(precio)
