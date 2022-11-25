@@ -5,3 +5,10 @@
 
 # los numeros a pasar son numeros entre 100 y 200
 
+def ordenar(*args):
+    for i in args:
+        print(i)
+
+#principal
+
+ordenar(1,2,3,4,5)
