@@ -1,13 +1,18 @@
-def invertir(palabra, aux_palabra = ''):
+def invertir(palabra, longuitud):
     if palabra == '':
-        a_devolver = ''
+        return ''
+    a_devolver = invertir(palabra[1:], longuitud) + palabra[0]
+    if len(a_devolver) == longuitud:
+        if a_devolver == palabra:
+            return True
+        else:
+            return False
     else:
-        a_devolver = invertir(palabra[1:]) + palabra[0]
-    return a_devolver
+        return a_devolver
 
 # principal
-
-print(invertir('libra'))
+string = 'libra'
+print(invertir(string, len(string)))
 
 '''
 invertir('ibra') + l
