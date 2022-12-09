@@ -1,0 +1,16 @@
+version: "2.12"
+services:
+  mysql:
+    container_name: mysql_clase
+    image: mysql:8.0.31
+    volumes:
+      - ./sql-data/db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    hostname: rog
+    environment:
+      MYSQL_DATABASE: 'test_database'
+      MYSQL_USER: 'elektxo'
+      MYSQL_PASSWORD: 'afh_1107'
+      MYSQL_ROOT_PASSWORD: 'afh_1107'
+      MYSQL_ROOT_PASSWORD: 'afh_1107'
