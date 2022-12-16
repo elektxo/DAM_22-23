@@ -1,0 +1,4 @@
+El for va a arrojar un error porque en la segunda iteración va a buscar un número negativo
+Por consola se muestra:
+El except... [2,3,4,5,6] [1]
+El finally... [1]
